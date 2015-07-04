@@ -146,7 +146,8 @@
             (message "init completed in %.2fms"
                      (sanityinc/time-subtract-millis after-init-time before-init-time))))
 
-
+(setq magit-last-seen-setup-instructions "1.4.0")
+(setq desktop-restore-frames nil)
 (provide 'init)
 
 ;; Local Variables:
